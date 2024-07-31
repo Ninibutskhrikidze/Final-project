@@ -1,1 +1,34 @@
-/* 768px-374px */
+/* 768px-321px */
+@media(max-width:590px){
+  /* index section1 */
+  .index_section1{
+    padding:142px 7px;
+  }
+  .title1{
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .button1{
+padding: 10px 40px;
+font-size: 24px;
+line-height: 31.99px;
+  }
+}
+@media(max-width:481px) {
+  /* header */
+  header {
+    padding: 26px 20px;
+  }
+}
+
+@media(max-width:322px) {
+
+  /* header */
+  header {
+    padding: 26px 16px;
+  }
+  /* index section1 */
+  .index_section1{
+    padding:102px 0px;
+  }
+}

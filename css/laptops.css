@@ -1,1 +1,41 @@
 /* 1439px-833px */
+@media(max-width:1201px) {
+
+  /* header */
+  header {
+    padding: 26px 48px;
+  }
+  /* index section1 */
+  .index_section1{
+    padding:227px 50px;
+  }
+  .title1{
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+
+@media(max-width:947px) {
+
+  /* header */
+  header {
+    padding: 26px 24px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .header_nav {
+    display: none;
+  }
+
+  .cart_button {
+    background: none;
+    padding: 0px;
+  }
+
+  .cart {
+    color: #FFFFFF;
+  }
+}

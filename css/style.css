@@ -1,0 +1,144 @@
+/* container */
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+  border: 5px solid red;
+}
+
+/* header */
+header {
+  background-color: #A88746;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 120px;
+}
+
+.burger {
+  display: none;
+}
+
+.header_ul {
+  display: flex;
+  column-gap: 67px;
+  align-items: center;
+}
+
+.pages {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  color: #000000;
+}
+
+.pages:hover {
+  border-bottom: 2px solid #000000;
+}
+
+.active_page {
+  color: #FFFFFF;
+}
+
+.active_page:hover {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.cart_button {
+  background-color: #FFFFFF;
+  padding: 23px;
+  border: none;
+  border-radius: 20px;
+}
+
+.cart {
+  color: #A88746;
+  font-size: 32px;
+}
+
+.cart:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/* index section1 */
+.index_section1 {
+ display: flex;
+ padding: 227px 198px;
+ background-image: url(../images/cover1.png);
+ flex-direction: column;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ align-items: center;
+ margin-top: 77px;
+}
+.title1 {
+  font-family:"Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;  
+  color: #FFFFFF;
+  text-shadow:7px 8px 26px #2E0932;
+}
+
+.button1 {
+background-color: #FFFFFF;
+padding: 17px 80px;
+border: none;
+border-radius: 20px;
+font-family:"Playfair Display", serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 42.66px;
+text-align: center;
+color: #000000;
+margin-top: 105px;
+}

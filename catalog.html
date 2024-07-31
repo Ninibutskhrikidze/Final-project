@@ -5,19 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>catalog</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/virable.css">
+  <script src="https://kit.fontawesome.com/4b9dbc2448.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/laptops.css">
   <link rel="stylesheet" href="css/tablets.css">
   <link rel="stylesheet" href="css/mobiles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+  </style>
 </head>
 <body>
   <!-- container -->
-  <div>
+  <main class="container">
     <!-- header -->
-    <header></header>
-    <!-- footer -->
-    <footer></footer>
-  </div> 
+    <header>
+      <a href="" class="burger"><img src="images/burger.svg" alt="Page list button"></a>
+      <a href="index.html"><img src="images/logo.svg"
+          alt="The main logo named Luna, when you click it, you will go to the main page"></a>
+      <nav class="header_nav">
+        <ul class="header_ul">
+          <li>
+            <a href="index.html" class="pages active_page">Main page</a>
+          </li>
+          <li>
+            <a href="catalog.html" class="pages">All collection</a>
+          </li>
+          <li>
+            <a href="contact.html" class="pages">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="cart_button">
+        <i class=" cart fa-solid fa-bag-shopping"></i>
+      </button>
+    </header>
 </body>
 </html>
