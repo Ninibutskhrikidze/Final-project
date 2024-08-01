@@ -1,4 +1,6 @@
 /* container */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .container {
   width: min(100%, 1440px);
   margin: auto;
@@ -141,4 +143,121 @@ line-height: 42.66px;
 text-align: center;
 color: #000000;
 margin-top: 105px;
+box-shadow: none;
+transition: all 0.5s;
+position: relative;
+}
+.button1:hover{
+  color: #A88746;
+}
+.button1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.1);
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+.button1:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.button1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255,255,255,0.5);
+  transform: scale(1.2,1.2);
+  border-radius: 20px;
+  
+}
+.button1:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+}
+
+/* index section2 */
+.index_section2{
+  padding: 80px 121px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 64px 419px;
+  grid-template-areas:
+    "title title title title"
+    "card1 card2 card3 card4";
+  column-gap: 20px;
+  row-gap: 36px;
+}
+
+.title2{
+  grid-area: title;
+font-family:"Playfair Display", serif;
+font-size: 48px;
+font-weight: 500;
+line-height: 63.98px;
+letter-spacing: 0.07em;
+color: #000000;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+}
+.card1{grid-area: card1;}
+.card2{grid-area: card2;}
+.card3{grid-area: card3;}
+.card4{grid-area: card4;}
+.card_image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.article_card{
+  background-color:#9C835066;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding: 19px 14px;
+  row-gap: 5px;
+}
+.card_div{ 
+  display: flex;
+  justify-content: space-between;
+}
+.Perfume_name, .price{
+font-family:"Playfair Display", serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 31.99px;
+letter-spacing: 0.07em;
+color: #000;
+}
+.perfume_for{
+font-family: "Inter", sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 18.15px;
+letter-spacing: 0.07em;
+color: #000;
+}
+.buy_button{
+padding: 9px 11px 10px 11px;
+border-radius: 20px;
+background-color: #FFFFFF;
+font-family:"Playfair Display", serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 21.33px;
+letter-spacing: 0.07em;
+color: #000;
+border: none;
 }
