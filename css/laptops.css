@@ -1,6 +1,16 @@
 /* 1439px-833px */
 @media(max-width:1321px){
-  
+
+  /* index section2 */
+  .index_section2{
+    padding: 80px 0px 80px 121px;
+  }
+  .section_cards{
+    overflow-x: scroll;
+  }
+  .card{
+    flex: 1 0 285px;
+  }
 }
 
 @media(max-width:1201px) {
@@ -16,6 +26,14 @@
   .title1{
     font-size: 48px;
     line-height: 52px;
+  }
+  /* index section2 */
+  .index_section2{
+    padding: 80px 0px 80px 48px;
+  }
+  /* footer */
+  footer{
+    padding: 61px 48px; 
   }
 }
 
@@ -42,4 +60,13 @@
   .cart {
     color: #FFFFFF;
   }
+   /* index section2 */
+  .index_section2{
+      padding: 77px 0px 77px 24px;
+      row-gap: 37px;
+  } 
+    /* footer */
+    footer{
+      padding: 61px 24px; 
+    }
 }

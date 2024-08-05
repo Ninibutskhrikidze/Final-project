@@ -19,7 +19,8 @@
   <main class="container">
     <!-- header -->
     <header>
-      <a href="" class="burger"><img src="images/burger.svg" alt="Page list button"></a>
+      <img class="burger" src="images/burger.svg" alt="Page list button">
+      <img class="xmark" src="images/xmark.svg" alt="close burger">
       <a href="index.html"><img src="images/logo.svg"
           alt="The main logo named Luna, when you click it, you will go to the main page"></a>
       <nav class="header_nav">
@@ -47,53 +48,54 @@
     <!-- section2 -->
     <section class="index_section2">
       <h3 class="title2">Most popular</h3>
-      <!-- card1 -->
-      <article class="card card1">
-        <img class="card_image" src="images/card1.png" alt="GIORGIO ARMANI">
-        <article class="article_card">
-          <h4 class="Perfume_name">
-            GIORGIO ARMANI
-          </h4>
-        <span class="perfume_for">
-          perfume for man
-        </span>
-        <div class="card_div">
-          <h5 class="price">
-              478$
-          </h5>
-          <button class="buy_button">
-              buy now
-          </button>
-          </div>
-        </article>
+      <section class="section_cards">
+        <!-- card1 -->
+        <article class="card">
+          <img class="card_image" src="images/card1.png" alt="GIORGIO ARMANI">
+          <article class="article_card">
+            <h4 class="Perfume_name">
+              GIORGIO ARMANI
+            </h4>
+            <span class="perfume_for">
+              perfume for man
+            </span>
+            <div class="card_div">
+              <h5 class="price">
+                478$
+              </h5>
+              <button class="buy_button">
+                buy now
+              </button>
+            </div>
+          </article>
         </article>
         <!-- card2 -->
-        <article class="card card2">
+        <article class="card">
           <img class="card_image" src="images/card2.png" alt="LIBRE">
           <article class="article_card">
             <h4 class="Perfume_name">
               LIBRE
             </h4>
-          <span class="perfume_for">
-            perfume for woman
-          </span>
-          <div class="card_div">
-            <h5 class="price">
-              458$
-            </h5>
-            <button class="buy_button">
+            <span class="perfume_for">
+              perfume for woman
+            </span>
+            <div class="card_div">
+              <h5 class="price">
+                458$
+              </h5>
+              <button class="buy_button">
                 buy now
-            </button>
+              </button>
             </div>
           </article>
-          </article>
-          <!-- card3 -->
-          <article class="card card3">
-            <img class="card_image" src="images/card3.png" alt="GIORGIO ARMANI">
-            <article class="article_card">
-              <h4 class="Perfume_name">
-                GIORGIO ARMANI
-              </h4>
+        </article>
+        <!-- card3 -->
+        <article class="card">
+          <img class="card_image" src="images/card3.png" alt="GIORGIO ARMANI">
+          <article class="article_card">
+            <h4 class="Perfume_name">
+              GIORGIO ARMANI
+            </h4>
             <span class="perfume_for">
               perfume for woman
             </span>
@@ -102,35 +104,103 @@
                 156$
               </h5>
               <button class="buy_button">
-                  buy now
+                buy now
               </button>
-              </div>
-            </article>
-            </article>
-            <!-- card4 -->
-            <article class="card card4">
-              <img class="card_image" src="images/card4.png" alt="MY WAY">
-              <article class="article_card">
-                <h4 class="Perfume_name">
-                  MY WAY
-                </h4>
-              <span class="perfume_for">
-                perfume for woman
-              </span>
-              <div class="card_div">
+            </div>
+          </article>
+        </article>
+        <!-- card4 -->
+        <article class="card">
+          <img class="card_image" src="images/card4.png" alt="MY WAY">
+          <article class="article_card">
+            <h4 class="Perfume_name">
+              MY WAY
+            </h4>
+            <span class="perfume_for">
+              perfume for woman
+            </span>
+            <div class="card_div">
               <h5 class="price">
                 356$
               </h5>
               <button class="buy_button">
-                  buy now
+                buy now
               </button>
-              </div>
-
-              </article>
-              </article>
+            </div>
+          </article>
+        </article>
+      </section>
     </section>
     <!-- footer -->
-    <footer></footer>
+    <footer>
+<!-- left side -->
+      <a href="index.html"> <img src="images/logo.svg" alt="logo"></a>
+    <!-- center --> 
+      <section class="footer_section1">
+        <nav>
+          <ul class="social_media_mobile">
+            <li>
+              <a class="media_links" href=""><i class="fa-brands fa-square-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a class="media_links" href=""><i class="fa-brands fa-square-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a class="media_links" href=""><i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="help">
+            <li class="center_li">
+              <a class="text_footer" href="">help</a>
+            </li>
+            <li class="center_li">
+              <a class="text_footer" href="">help centre</a>
+            </li>
+            <li class="center_li">
+              <a class="text_footer" href="">privacy settings</a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="social_media">
+            <li>
+              <a  href=""><i class="fa-brands fa-square-instagram media_links "></i>
+              </a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-square-facebook media_links "></i>
+              </a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-youtube media_links "></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- right side -->
+        <nav>
+          <ul class="right_ul">
+            <li class="right_li">
+              <img src="images/phone.svg" alt="">
+              <h6 class="text_footer information">+123 456 789</h6>
+            </li>
+            <li class="right_li">
+              <img src="images/mail.svg" alt="">
+              <h6 class="text_footer information">lunaperfume@gmail.com</h6>
+            </li>
+            <li class="right_li">
+              <img src="images/direction.png" alt="">
+              <h6 class="text_footer information">Rustaveli avenue,30</h6>
+            </li>
+          </ul>
+        </nav>
+    </footer>
   </main>
 </body>
 
