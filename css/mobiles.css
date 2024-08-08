@@ -41,7 +41,6 @@
   .titleCatalog {
     font-size: 32px;
     line-height: 42.66px;
-
   }
 
   .catalog-text-sort {
@@ -72,6 +71,29 @@
   }
 
 }
+@media(max-width:646px){
+  /* contact page */
+ /* section1 */
+.form { width: 100%;
+  height: 100%;}
+.contact_section{
+  padding: 130px 20px;
+}
+.contact-title{
+  font-size: 24px;
+  line-height: 31.99px;
+  }
+  input[type=text] {
+    width: 312px;
+  }
+input[type=email] {
+  width: 100%;
+}
+
+.map{
+  width: 440px;
+}
+}
 
 @media(max-width:590px) {
 
@@ -92,7 +114,7 @@
   }
 
   /* page2 catalog */
-  .cataog {
+  .catalog {
     padding: 94px 20px;
   }
 
@@ -140,6 +162,14 @@
   .title2 {
     font-size: 40px;
     line-height: 53.32px;
+  }
+
+  /* contact */
+  input[type=text] {
+    width: 100%;
+  }
+  .map{
+    width: 280px;
   }
 }
 
