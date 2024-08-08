@@ -479,3 +479,94 @@ footer {
 .active_button {
   background-color: #A88746;
 }
+
+/* contact page */
+
+.contact_section {
+  display: flex;
+  flex-direction: column;
+  background: url(../images/background.png) center/cover;
+  background-repeat: no-repeat;
+  margin-top: 207px;
+  padding: 130px 0px 130px 120px;
+}
+
+.form {
+  width: 589px;
+  background-color: #A88746;
+  border-radius: 20px;
+  opacity: 0.8;
+  border: 1px solid #ae3434;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.contact-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 47.99px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input[type=text],
+input[type=email] {
+  height: 63px;
+  padding: 22px 250px 22px 22px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #FFFFFF;
+  color: #000000;
+
+}
+
+input[type=text] {
+  width: 317px;
+  margin-bottom: 20px;
+}
+
+input[type=email] {
+  width: 410px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 97px;
+  padding: 22px 459px 56px 22px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: #FFFFFF;
+  color: #000000;
+  resize: none;
+  margin-bottom: 28px;
+}
+
+/* Button */
+.contact_section button {
+  width: 217px;
+  height: 63px;
+  top: 374px;
+  left: 352px;
+  padding: 17px 48px;
+  gap: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 8px 9px #2E0932CC;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+}

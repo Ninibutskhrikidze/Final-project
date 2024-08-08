@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,35 +11,120 @@
   <link rel="stylesheet" href="css/laptops.css">
   <link rel="stylesheet" href="css/tablets.css">
   <link rel="stylesheet" href="css/mobiles.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-  </style>
 </head>
+
 <body>
   <!-- container -->
   <main class="container">
     <!-- header -->
-    <header>
-      <a href="" class="burger"><img src="images/burger.svg" alt="Page list button"></a>
-      <a href="index.html"><img src="images/logo.svg"
-          alt="The main logo named Luna, when you click it, you will go to the main page"></a>
-      <nav class="header_nav">
-        <ul class="header_ul">
-          <li>
-            <a href="index.html" class="pages active_page">Main page</a>
-          </li>
-          <li>
-            <a href="catalog.html" class="pages">All collection</a>
-          </li>
-          <li>
-            <a href="contact.html" class="pages">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="cart_button">
-        <i class=" cart fa-solid fa-bag-shopping"></i>
-      </button>
-    </header>
+    <!-- container -->
+    <main class="container">
+      <!-- header -->
+      <header>
+        <img class="burger" src="images/burger.svg" alt="Page list button">
+        <img class="xmark" src="images/xmark.svg" alt="close burger">
+        <a href="index.html"><img src="images/logo.svg"
+            alt="The main logo named Luna, when you click it, you will go to the main page"></a>
+        <nav class="header_nav">
+          <ul class="header_ul">
+            <li>
+              <a href="index.html" class="pages active_page">Main page</a>
+            </li>
+            <li>
+              <a href="catalog.html" class="pages">All collection</a>
+            </li>
+            <li>
+              <a href="contact.html" class="pages">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="cart_button">
+          <i class=" cart fa-solid fa-bag-shopping"></i>
+        </button>
+      </header>
+      <!-- section -->
+      <section class="contact_section">
+        <section class="form">
+          <h2 class="contact-title">You have questions ? Text us</h2>
+          <form name="contact_form" method="get">
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <textarea name="details" id="details" placeholder="Message"></textarea>
+          </form>
+          <button class="contact_button" type="submit">send text</button>
+        </section>
+      </section>
+      <!-- footer -->
+      <footer>
+        <!-- left side -->
+        <a href="index.html"> <img src="images/logo.svg" alt="logo"></a>
+        <!-- center -->
+        <section class="footer_section1">
+          <nav>
+            <ul class="social_media_mobile">
+              <li>
+                <a class="media_links" href=""><i class="fa-brands fa-square-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a class="media_links" href=""><i class="fa-brands fa-square-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a class="media_links" href=""><i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav>
+            <ul class="help">
+              <li class="center_li">
+                <a class="text_footer" href="">help</a>
+              </li>
+              <li class="center_li">
+                <a class="text_footer" href="">help centre</a>
+              </li>
+              <li class="center_li">
+                <a class="text_footer" href="">privacy settings</a>
+              </li>
+            </ul>
+          </nav>
+          <nav>
+            <ul class="social_media">
+              <li>
+                <a href=""><i class="fa-brands fa-square-instagram media_links "></i>
+                </a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-square-facebook media_links "></i>
+                </a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-youtube media_links "></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <!-- right side -->
+        <nav>
+          <ul class="right_ul">
+            <li class="right_li">
+              <img src="images/phone.svg" alt="">
+              <h6 class="text_footer information">+123 456 789</h6>
+            </li>
+            <li class="right_li">
+              <img src="images/mail.svg" alt="">
+              <h6 class="text_footer information">lunaperfume@gmail.com</h6>
+            </li>
+            <li class="right_li">
+              <img src="images/direction.png" alt="">
+              <h6 class="text_footer information">Rustaveli avenue,30</h6>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
 </body>
+
 </html>
