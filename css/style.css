@@ -481,7 +481,7 @@ footer {
 }
 
 /* contact page */
- /* section1 */
+/* section1 */
 .contact_section {
   display: flex;
   flex-direction: column;
@@ -492,7 +492,7 @@ footer {
 }
 
 .form {
-  width: 589px ;
+  width: 589px;
   background-color: #A88746;
   border-radius: 20px;
   opacity: 0.8;
@@ -559,7 +559,6 @@ textarea {
   padding: 17px 48px;
   gap: 10px;
   border-radius: 20px;
-  box-shadow: 5px 8px 9px #2E0932CC;
   color: #FFFFFF;
   font-family: "Inter", sans-serif;
   font-size: 20px;
@@ -568,58 +567,129 @@ textarea {
   border: none;
   cursor: pointer;
   background-color: black;
+  transition: box-shadow 0.3s ease;
+}
+
+.contact_section button:hover {
+  box-shadow: 5px 8px 9px #2E0932CC;
 }
 
 /* section2 */
-.section-aboutUs{
+.section-aboutUs {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding:114px 324px ;
+  padding: 114px 324px;
 }
-.title-aboutUs{
-font-family: "Playfair Display", serif;
-font-size: 64px;
-font-weight: 700;
-line-height: 48px;
-color: #000000;
-margin-bottom: 64px;
+
+.title-aboutUs {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 64px;
 }
-.container-contact{
+
+.container-contact {
   display: flex;
   column-gap: 108px;
+  align-items: center;
 }
-.information_aboutUs{
+
+.information_aboutUs {
   display: flex;
   flex-direction: column;
   row-gap: 72px;
 }
-.button-call, .button-email, .button-address{
-width: 48px;
-height: 48px;
-padding: 12px ;
-border-radius: 8px;
-border: 2px solid  black;
-background-color: #A88746;
+
+.button-contact {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: #A88746;
 }
-.contactSpan{
+
+.button-contact:hover {
+  background-color: #000000;
+}
+
+.contactSpan {
   display: flex;
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.78px;
 }
-.call, .mailToUs, .location{
+
+.call,
+.mailToUs,
+.location {
   display: flex;
-align-items: center;
-column-gap: 14px;
+  align-items: center;
+  column-gap: 14px;
 }
 
-.phone, .email, .Address{
+.icons_contact {
   color: #FFFFFF;
 }
-map{
+
+.icons_contact:hover {
+  animation-name: shake;
+  animation-duration: 0.5s;
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+map {
   width: 560px;
-height: 320px;
+  height: 320px;
 }

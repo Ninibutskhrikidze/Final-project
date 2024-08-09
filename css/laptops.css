@@ -49,13 +49,16 @@
   .index_section2 {
     padding: 80px 0px 80px 48px;
   }
- /* page3 contact */
- .contact_section {
-  padding: 130px 386px 130px 48px;
- }
- .section-aboutUs{
-  padding:114px 116px ;
- }
+
+  /* page3 contact */
+  .contact_section {
+    padding: 130px 386px 130px 48px;
+  }
+
+  .section-aboutUs {
+    padding: 114px 116px;
+  }
+
   /* footer */
   footer {
     padding: 61px 48px;
@@ -105,37 +108,43 @@
   }
 
   /* page3 contact */
-  .section-aboutUs{
-    padding:114px 92px 129px 92px;
+  .section-aboutUs {
+    padding: 114px 92px 129px 92px;
   }
-  .container-contact{
+
+  .container-contact {
     flex-direction: column;
   }
-  .information_aboutUs{
+
+  .information_aboutUs {
     flex-direction: row;
     justify-content: center;
     row-gap: 0px;
-    column-gap:60px;
+    column-gap: 60px;
     margin-bottom: 27px;
   }
-  .contactSpan{
+
+  .contactSpan {
     display: none;
   }
+
   /* footer */
   footer {
     padding: 61px 24px;
   }
 }
-@media(max-width:720px){
-.contact_section {
-  padding: 130px 135px 130px 20px;
-}
-.section-aboutUs{
-  padding:114px 20px 129px 20px;
-}
-.title-aboutUs{
-font-size: 40px;
-line-height: 48px;
-}
-}
 
+@media(max-width:720px) {
+  .contact_section {
+    padding: 130px 135px 130px 20px;
+  }
+
+  .section-aboutUs {
+    padding: 114px 20px 129px 20px;
+  }
+
+  .title-aboutUs {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
